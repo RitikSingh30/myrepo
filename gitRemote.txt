@@ -1,0 +1,12 @@
+How to push a commit on github destop 
+	1. Github account 
+	2. Empty repository 
+	3. Local system 
+		a. git config --global user.name "RitikSingh30"
+		b. git config --global user.email "ritikraj.rr87@gmail.com"
+	4. Git ko local system se link kar ke le lena hai 
+		a.  git remote add origin https://github.com/RitikSingh30/myrepo.git (aisa kuch link milega jab empty repo create karne tab)
+	5. git push -u origin master 
+		a. Username? -> RitikSingh30
+		b. Password? -> github me jake token generate kar ke uska link yaha pe dalna hai and token me saare options tick kar dena hai 
+	Ye upar ka 5th point tab use karna hai jab github pe push karne me error aata hai 
